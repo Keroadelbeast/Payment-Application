@@ -1,0 +1,33 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt Server\server.c
+  server.c
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(78,51): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(79,59): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(82,65): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(90,51): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(91,59): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(94,65): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(101,51): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(102,59): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(105,65): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(112,51): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(113,59): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(116,65): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(123,51): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(124,59): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(127,65): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(306,40): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(307,60): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(308,64): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(309,55): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(313,61): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(321,40): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(323,64): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(324,55): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_cardData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(327,61): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(328,58): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(329,61): warning C4133: 'function': incompatible types - from 'ST_transaction_t *' to 'ST_terminalData_t *'
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(182): warning C4715: 'isBlockedAccount': not all control paths return a value
+E:\MY THINGS\Embedded FWD\Payment APP\Payment APP\Server\server.c(296): warning C4715: 'saveTransaction': not all control paths return a value
+  Payment APP.vcxproj -> E:\MY THINGS\Embedded FWD\Payment APP\x64\Debug\Payment APP.exe
